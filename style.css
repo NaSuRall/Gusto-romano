@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    background-color: #edd9cb;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color : #CCCCCC;
+    width: 100%;
+    height: 100%;
+    background-image: url(woula.svg);
+}
+nav h1{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 2em;
+}
+nav span {
+    font-family: 'Special Elite', cursive;
+    color: red;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-family: 'Lobster Two', cursive;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+nav .onglets a:hover{
+    color: red;
+}
+header {
+    background-color: #edd9cb;
+}
+section{
+    width: 100%;
+    background-color: #edd9cb;
+    height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+section h1{
+    font-size: 3em;
+    font-family: 'Special Elite', cursive;
+
+}
+section span{
+    color: red;
+    font-size: 3em;
+    font-family: 'Special Elite', cursive;
+
+}
+.img-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.ma-div {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.partie {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.partie-centrale {
+    flex: 2;
+margin: 10px;
+}
+#gauche {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+#gauche h1 {
+    font-family: 'Lobster Two', cursive;
+    margin: 10px;
+    border-bottom: 1px solid #000000 ;
+}
+#milieu {
+
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#droite {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cmenu{
+    flex: 1;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(205, 205, 205);
+    cursor: pointer;
+}
+.csmenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lobster Two', cursive;
+    margin-left: 30px;
+}
+.cmenu:hover{
+    transition: 0.8s;
+    background-color: #aaaaaa;
+}
+#milieu h1{
+    font-family:'Lobster Two', cursive;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3em;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+    
+}
+.contents h2{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.contents p{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 10px;
+    
+}
+.container {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  .left-column {
+    flex: 25%;
+  }
+  
+  .right-column {
+    flex: 65%;
+  }
+
+.right-column{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    margin-left: 10px;
+   
+}
+#droite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#droite h1{
+    font-family:'Lobster Two', cursive;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    
+}
+footer{
+    margin-top: 40px;
+    background-color: #CCCCCC;color: 
+    #000000;
+    padding: 30px 100px;
+
+}
+footer h1{
+    font-family: 'Playfair Display', sans-serif;
+    border-bottom: 2px solid #6f6f6f;
+    width: 20%;
+    padding-bottom: 20px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(0, 0, 0);
+}
